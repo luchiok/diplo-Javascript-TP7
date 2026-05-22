@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tp-fallaservidor</title>
+  </head>
+  <style>
+    table, th, td {
+      border:1px solid black;
+    }
+  </style>
+
+  <body>
+    <div id="app">
+      <h1 id="title"> Bienvenido al Centro de computos</h1>
+      <h3 id="login"> Bienvenido</h3>
+      <h4 id="descripcion"> Pasos de seguir en caso de fallas del servidor:</h4>
+    </div>
+  
+<table border="1" style="width:100%; border-collapse: collapse;">
+  <tr>
+    <td><strong>Número</strong></td>
+    <td><strong>Detalle del Procedimiento</strong></td>
+    <td><strong>Acciones</strong></td>
+  </tr>
+
+  <tr>
+    <td align="center">1</td>
+    <td id="paso1" style="background-color: blueviolet; color: #ffffff;">Verificar energía eléctrica y UPS</td>
+    <td><button class="btnVerificado1">Verificado</button> | <button class="btnModificar">Modificar</button> | <button class="btnEliminar">Eliminar</button></td>
+  </tr>
+
+  <tr>
+    <td align="center">2</td>
+    <td id="paso2" style="background-color: blueviolet; color: #ffffff;">Verificar conectividad de red</td>
+    <td><button class="btnVerificado2">Verificado</button> | <button class="btnModificar">Modificar</button> | <button class="btnEliminar">Eliminar</button></td>
+  </tr>
+
+  <tr>
+    <td align="center">3</td>
+    <td id="paso3" style="background-color: blueviolet; color: #ffffff;">Acceso local o remoto al equipo</td>
+    <td><button class="btnVerificado3">Verificado</button> | <button class="btnModificar">Modificar</button> | <button class="btnEliminar">Eliminar</button></td>
+  </tr>
+
+  <tr>
+    <td align="center">4</td>
+    <td id="paso4" style="background-color: blueviolet; color: #ffffff;">Restaurar configuración desde backup si corresponde</td>
+    <td><button class="btnVerificado4">Verificado</button> | <button class="btnModificar">Modificar</button> | <button class="btnEliminar">Eliminar</button></td>
+  </tr>
+
+  <tr>
+    <td align="center">5</td>
+    <td id="paso5" style="background-color: blueviolet; color: #ffffff;">Evaluar reemplazo de hardware si es necesario</td>
+    <td><button class="btnVerificado5">Verificado</button> | <button class="btnModificar">Modificar</button> | <button class="btnEliminar">Eliminar</button></td>
+  </tr>
+</table>
+
+<p>En caso de emergencias llamar a 9875</p>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
