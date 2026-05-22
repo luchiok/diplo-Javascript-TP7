@@ -12,5 +12,5 @@ TypeScript
 Vite
 Node.js
 Repositorio GitHub
-https://github.com/luchiok/diplo-Javascript-TP6
+https://github.com/luchiok/diplo-Javascript-TP7
 Gómez Luciano Nicolas Diplomatura en Creación de aplicaciones web dinámicas con TypeScript y JavaScript
